@@ -4,13 +4,22 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target in
 
 Config.AvailableJobs = {                                     -- Only used when not using qb-jobs.
     ['trucker'] = { ['label'] = 'Trucker', ['isManaged'] = false },
-    ['taxi'] = { ['label'] = 'Taxi', ['isManaged'] = false },
     ['tow'] = { ['label'] = 'Tow Truck', ['isManaged'] = false },
     ['reporter'] = { ['label'] = 'News Reporter', ['isManaged'] = false },
-    ['garbage'] = { ['label'] = 'Garbage Collector', ['isManaged'] = false },
-    ['bus'] = { ['label'] = 'Bus Driver', ['isManaged'] = false },
     ['hotdog'] = { ['label'] = 'Hot Dog Stand', ['isManaged'] = false },
-    ['postal'] = { ['label'] = 'GoPostal', ['isManaged'] = false }
+    ['postal'] = { ['label'] = 'GoPostal', ['isManaged'] = false },
+    -- ['taxi'] = { ['label'] = 'Taxi', ['isManaged'] = false },
+    -- ['garbage'] = { ['label'] = 'Garbage Collector', ['isManaged'] = false },
+    -- ['bus'] = { ['label'] = 'Bus Driver', ['isManaged'] = false },
+    
+	-- angelicsx-Civilianjobs
+    ['busdriver'] = { ['label'] = 'Bus Driver', ['isManaged'] = false },
+    ['forkliftdriver'] = { ['label'] = 'Forklift Operator', ['isManaged'] = false },
+    ['taxidriver'] = { ['label'] = 'Taxi Driver', ['isManaged'] = false },
+    ['scubadiver'] = { ['label'] = 'Scuba Diver', ['isManaged'] = false },
+    ['lifeguard'] = { ['label'] = 'Lifeguard', ['isManaged'] = false },
+    ['helidriver'] = { ['label'] = 'Helicopter Cargo Delivery', ['isManaged'] = false },
+    ['garbagedriver'] = { ['label'] = 'Garbage Truck Driver', ['isManaged'] = false },
 }
 
 Config.Cityhalls = {
