@@ -48,6 +48,11 @@ Config.Cityhalls = {
                 cost = 50,
                 metadata = 'weapon'
             },
+            ["huntinglicense"] = { -- boii-hunting
+                label = "Hunting License",
+                cost = 50,
+                metadata = "hunting"
+            },
         }
     },
 }
